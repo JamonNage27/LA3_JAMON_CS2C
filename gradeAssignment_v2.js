@@ -1,6 +1,6 @@
 // gradeAssignment_v2.js
 let score = prompt("Enter your score:");
-alert(score);
+score= parseFloat(score);
 //Determining the equivalent grade using ternary operator 
 let grade = score >= 97? "1.00":
   score >= 94? "1.25":
