@@ -1,17 +1,17 @@
-// iterationMapping.js
+// iterationMapping with Double Loops
 const maxLimit = parseInt(prompt("Enter the Limit of the Double Loop: "));
 
 // Initialize counters
-let i = 0;
-let j = 0;
+let j = 0; //serves as the counter
+let n = 0; //serves as the counter
 
 // Loop through each iteration
-for (i = 0; i < maxLimit; i++) {
-  for (j = 0; j < maxLimit; j++) {
+for (j = 0; j < maxLimit; j++) {
+  for (n = 0; n < maxLimit; n++) {
     // Calculate the added value
-    const addedValue = i + j;
+    const addedValue = j + n;
 
-    // Log the iteration points and added value
-    console.log(`[{i}] [{j}] Added value is {addedValue}`);
+    // Log the output of the counters and added value
+    console.log(`[{j}] [{n}] Added value is {addedValue}`);
   }
 }
