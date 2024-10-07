@@ -11,9 +11,8 @@ let grade = score >= 97? "1.00":
   score >= 79? "2.50":
   score >= 76? "2.75":
   score === 75? "3.00":
-  score >=72? "4.00": "5.00;
+  score >=72? "4.00": "5.00";
 
-//Determining the final remarks using if... else if ... else statements 
 let remarks;
 if (score >= 90) {
   remarks = "HIGH PASS, Candidate for Cum Laude";
