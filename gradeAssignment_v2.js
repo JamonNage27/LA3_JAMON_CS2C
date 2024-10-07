@@ -26,5 +26,5 @@ if (score >= 90) {
 }
 
 console.log("Result:");
-console.log("Your equivalent Grade is" ${grade} "{grade >= 2.00 ? "Average" : grade >= 3.00 ? "Below Average" : " Excellent " } ");
-console.log("Final Remarks = ${remarks}");
+console.log(`Your equivalent Grade is “${grade}” ${grade >= 2.00 ? "Average" : grade >= 3.00 ? "Below Average" : "Excellent"}`);
+console.log(`Final Remarks: ${remarks}`);
