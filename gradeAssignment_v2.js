@@ -1,7 +1,7 @@
 // gradeAssignment_v2.js
 let score = prompt("Enter your score:");
-alert(score) {
-//ternary operator 
+alert(score);
+//Determining the equivalent grade using ternary operator 
 let grade = score >= 97? "1.00":
   score >= 94? "1.25":
   score >= 91? "1.50":
@@ -13,16 +13,19 @@ let grade = score >= 97? "1.00":
   score === 75? "3.00":
   score >=72? "4.00": "5.00;
 
+//Determining the final remarks using if... else if ... else statements 
 let remarks;
-  if (score >= 90) {
-    remarks = "HIGH PASS, Candidate for Cum Laude";
-  } else if (score >= 80) {
-    remarks = "AVERAGE PASS";
-  } else if (score >= 75) {
-    remarks = "LOW PASS";
-  } else {
-    remarks = "FAILED, Needs Improvement";
+if (score >= 90) {
+  remarks = "HIGH PASS, Candidate for Cum Laude";
+} else if (score >= 80) {
+  remarks = "AVERAGE PASS";
+} else if (score >= 75) {
+  remarks = "LOW PASS";
+} else {
+  remarks = "FAILED, Needs Improvement";
+}
 
-    console.log("Result:");
-    console.log(" Your equivalent Grade is " {grade} " {grade >= 2.00? "Average" : grade >= 3.00? "Below Average" : " Excellent " } ");
-    console.log( " Final Remarks = { remarks } ");
+console.log("Result:");
+console.log(" Your equivalent Grade is " {grade} " {grade >= 2.00? "Average" : grade >= 3.00? "Below Average" : " Excellent " } ");
+console.log( " Final Remarks = { remarks } ");
+    
